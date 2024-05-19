@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalenderBooking", "CalenderBooking\CalenderBooking.csproj", "{4F307316-8E3D-4F2B-A683-2EAADC5BF409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5699D3EF-BFBE-46BE-AB4A-AF811F8D80C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{539B00CB-C123-453A-A5E9-36A55A1CD5ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{99B087F8-6E37-4045-8CD7-EB509EF93942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{674D45E5-52C0-47C9-9E11-7F72145EB93E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CB.Domain", "CB.Domain\CB.Domain.csproj", "{CBCBB659-DCA0-42FB-8BAA-179C13D8F929}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{ED638A78-6FF8-4126-B6F6-8E062ECDC5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CB.Persistence", "CB.Persistence\CB.Persistence.csproj", "{9D60035D-A0DD-49EF-B6A3-F54F07ED013F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CB.Application", "CB.Application\CB.Application.csproj", "{F7494F97-7072-47F0-AD7F-6C46F6B7D2C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F307316-8E3D-4F2B-A683-2EAADC5BF409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F307316-8E3D-4F2B-A683-2EAADC5BF409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F307316-8E3D-4F2B-A683-2EAADC5BF409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F307316-8E3D-4F2B-A683-2EAADC5BF409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCBB659-DCA0-42FB-8BAA-179C13D8F929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCBB659-DCA0-42FB-8BAA-179C13D8F929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCBB659-DCA0-42FB-8BAA-179C13D8F929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCBB659-DCA0-42FB-8BAA-179C13D8F929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D60035D-A0DD-49EF-B6A3-F54F07ED013F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D60035D-A0DD-49EF-B6A3-F54F07ED013F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D60035D-A0DD-49EF-B6A3-F54F07ED013F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D60035D-A0DD-49EF-B6A3-F54F07ED013F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7494F97-7072-47F0-AD7F-6C46F6B7D2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7494F97-7072-47F0-AD7F-6C46F6B7D2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7494F97-7072-47F0-AD7F-6C46F6B7D2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7494F97-7072-47F0-AD7F-6C46F6B7D2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F307316-8E3D-4F2B-A683-2EAADC5BF409} = {5699D3EF-BFBE-46BE-AB4A-AF811F8D80C6}
+		{99B087F8-6E37-4045-8CD7-EB509EF93942} = {539B00CB-C123-453A-A5E9-36A55A1CD5ED}
+		{674D45E5-52C0-47C9-9E11-7F72145EB93E} = {539B00CB-C123-453A-A5E9-36A55A1CD5ED}
+		{CBCBB659-DCA0-42FB-8BAA-179C13D8F929} = {674D45E5-52C0-47C9-9E11-7F72145EB93E}
+		{9D60035D-A0DD-49EF-B6A3-F54F07ED013F} = {ED638A78-6FF8-4126-B6F6-8E062ECDC5E9}
+		{F7494F97-7072-47F0-AD7F-6C46F6B7D2C8} = {99B087F8-6E37-4045-8CD7-EB509EF93942}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EC6F149-39CC-448C-9C28-5BBE24D03902}
+	EndGlobalSection
+EndGlobal
