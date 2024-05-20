@@ -47,4 +47,4 @@ Areas needs improvement:
 - Each folder can be used as Seperate class library project (Though not required for this requirement)
 - Unit Testing (Setting up the Unit test project will consume some time)
 
-![Powershell demo](https://github.com/sivakumarss/CalenderBooking/assets/20783701/de88b600-e3e6-459d-95eb-0e6a7ec910d9)
+![Powershell demo](https://github.com/sivakumarss/CalenderBooking/assets/20783701/b201869f-f58a-4755-9188-bc10c36edfea)
