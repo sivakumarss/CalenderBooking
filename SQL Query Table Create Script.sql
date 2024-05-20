@@ -1,6 +1,3 @@
-﻿USE [CorePlusDemo]
-GO
-
 
 
 SELECT * FROM BookingSlot
